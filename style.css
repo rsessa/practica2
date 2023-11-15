@@ -1,0 +1,166 @@
+/* style.css */
+
+.titulo {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+.top {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+}
+
+.corazon {
+    color: red;
+    font-size: large
+}
+
+/*menu*/
+
+.navegacion {
+    width: 100%;
+}
+
+.navegacion ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion li {
+    display: inline;
+    margin: 20px 10px;
+}
+
+/* Sobre Mi */
+
+.sobremi {
+    background-color: #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.sobremi h2 {
+    text-align: center;
+}
+
+.sobremi p {
+    text-align: center;
+    font-style: italic;
+}   
+
+
+/* LIBROS */
+
+.libros {
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 5px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+.libros img {
+    height: auto;
+    min-width: 100px;
+    flex: auto;
+}
+
+/*sinopsis*/
+
+.sinopsis {
+    background-color: #f2f2f2;
+    padding-bottom: 20px;
+}
+.sinopsis p {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ /*personajes*/
+
+.tabla {
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.personajes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Enlaces de Interes */
+.enlaces {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.enlaces a {
+    text-decoration: none;
+}
+
+/*pie de pagina*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    height: 100px;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+footer h5 {
+    text-align: center;
+    flex: auto;
+}
+
+footer p {
+    text-align: center;
+    flex: auto;
+}
